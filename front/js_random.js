@@ -4,7 +4,7 @@
 const recomMenu = document.querySelector("#item");
 const foodImage = document.querySelector(".foodImage>img");
 
-let url = "http://13.125.227.52:85/random";
+let url = "https://13.125.227.52:85/random";
 let foodDB = fetch(url)
                 .then((response)=>{
                     let a=response.json()
