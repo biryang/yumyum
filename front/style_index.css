@@ -1,35 +1,23 @@
 html{
-    background-color: coral;
+    background-image: url("/Practice/Javascript/2.\ Yumyum/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     color:honeydew;
-
 }
 
 body{
     margin:30px 100px;
 }
 
-.foodImage{
-    background-image: url('pizza.jpg');
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top:0;
-    z-index:-1;
-    left:0%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
 /* 오버레이 */
 
 .overlay{
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color:rgba(128, 128, 128, 0.329);
     position: absolute;
     top:0;
-    left:50%;
+    left:0;
     z-index:-1;
 }
 
@@ -41,7 +29,6 @@ header{
     display:flex;
     flex-direction: row;
     line-height: 50px;
-    z-index:1;
 }
 .logo>a>img{
     width:100px;
@@ -68,10 +55,6 @@ header{
 }
 
 /* 본문 */
-
-.content{
-    margin-top:200px;
-}
 
 .content > #intro1{
     width: 777px;
@@ -104,7 +87,7 @@ header{
     flex-direction:row;
     justify-content: space-between;
 }
-.buttons>input{
+.buttons>a>input{
   width: 200px;
   height: 70px;
   font-family: NanumSquareB;
