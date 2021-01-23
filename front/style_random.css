@@ -1,129 +1,141 @@
-html,body{
-    color:honeydew;
-    margin:30px 100px;
+html {
+    color: honeydew;
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+body {
+    margin: 30px 100px;
 }
 
-.foodImage{
+.foodImage {
     background-color: coral;
     /* background-image: url('pizza.jpg'); */
     width: 50%;
     height: 100%;
     position: absolute;
-    top:0;
-    z-index:-1;
-    left:0%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
-.foodImage>img{
-    width:100%;
-    height:100%;
+.foodImage > img {
+    width: 100%;
+    height: 100%;
 }
 
 /* 우측 콘텐츠 */
 
-.backgroundImage{
+.backgroundImage {
     width: 50%;
     height: 100%;
     background-color: coral;
     position: absolute;
-    top:0;
-    left:50%;
-    z-index:-1;
+    top: 0;
+    left: 50%;
+    z-index: -1;
 }
 
 /* 페이지 상단 */
 
-header{
-    display:flex;
+header {
+    display: flex;
     flex-direction: row;
     line-height: 50px;
-    z-index:1;
+    z-index: 1;
 }
-.logo>a>img{
-    width:100px;
-    height:100px;
-}
-
-.login{ 
-    margin-left:auto; 
+.logo > a > img {
+    width: 100px;
+    height: 100px;
 }
 
-.login>ul{
+.login {
+    margin-left: auto;
+}
+
+.login > ul {
     list-style-type: none;
 }
 
-.login > ul > li{
-    display:inline-block;
-    padding:0 20px;
+.login > ul > li {
+    display: inline-block;
+    padding: 0 20px;
     font-size: 25px;
 }
 
-.login > ul > li > a{
-    color:inherit;
-    text-decoration:none;
+.login > ul > li > a {
+    color: inherit;
+    text-decoration: none;
 }
 
 /* 본문 */
 
-.content{
-    margin-top:200px;
+.content {
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+    position: absolute;
+    left: 15%;
 }
 
-.content > #todayMenu{
-    width: 777px;
-    height: 195px;
-    margin: 10px 234px 10px 200px;
+.content > #todayMenu {
+    height: 150px;
+    margin: 0 0 10px;
     font-family: NanumSquareEB;
-    font-size: 100px;
-    line-height:2;
+    font-size: 80px;
+    line-height: 2;
     text-align: left;
     color: #ffffff;
 }
 
-.content > #RecomMenu{
-  width: 1010px;
-  height: 39px;
-  margin: 0px 0px 150px 200px;
-  font-family: NanumSquareB;
-  font-size: 100px;
-  line-height: 1;
-  text-align: left;
-  color: #ffffff;
+.content > #RecomMenu {
+    margin: 0 0 60px 0;
+    height: 39px;
+    font-size: 80px;
+    font-family: NanumSquareB;
+    text-align: left;
+    line-height: 1;
+    color: #ffffff;
 }
 
 /* 버튼들 */
 
-.buttons{
-    margin-left:250px;
-    width:450px;
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
+.buttons {
+    width: 450px;
 }
-.buttons>a>input{
-  width: 200px;
-  height: 70px;
-  font-family: NanumSquareB;
-  font-weight: bold;
-  font-size: 20px;
-  color: #ffffff;
-
-  padding: 0px 20px;
-  border-radius: 50px;
-  /* box-shadow: 100px 100px 100px 20px rgba(0, 0, 0, 0.705); */
-  border: 0;
-  outline:0;
-  cursor: pointer;
-  background-color: #ffac4a; 
-  /* #f07800; */
-  transition: 0.5s;
+.buttons > a > input {
+    width: 200px;
+    height: 70px;
+    font-family: NanumSquareB;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    margin:0 10px;
+    padding: 0 20px;
+    border-radius: 50px;
+    /* box-shadow: 100px 100px 100px 20px rgba(0, 0, 0, 0.705); */
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background-color: #ffac4a;
+    /* #f07800; */
+    transition: 0.5s;
 }
 
-.buttons>a>input:hover{
-    background-color:#c05d00;
+.buttons > a > input:hover {
+    background-color: #c05d00;
+}
+.rating{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.rating > span {
+    font-size: 80px;
+    padding: 0 6px;
+    transition:0.5s;
 }
 
