@@ -4,8 +4,7 @@ const recomMenu = document.querySelector("#item");
 const foodImage = document.querySelector(".foodImage>img");
 const stars = document.querySelector(".rating");
 
-// api fetching
-let url = "http://13.125.227.52:85/random";
+let url = "https://13.125.227.52:85/random";
 let foodDB = fetch(url)
     .then((response) => {
         let a = response.json()
@@ -76,4 +75,7 @@ function Rate() {
     )
 }
 
-Rate();
+    
+console.log(foodDB);
+// const item = 
+// item.innerHTML = foodDB.
