@@ -4,6 +4,10 @@ const recomMenu = document.querySelector("#item");
 const foodImage = document.querySelector(".foodImage>img");
 const stars = document.querySelector(".rating");
 
+
+//2021.01.23
+// api fetching
+
 let url = "https://13.125.227.52:85/random";
 let foodDB = fetch(url)
     .then((response) => {
@@ -75,7 +79,4 @@ function Rate() {
     )
 }
 
-    
-console.log(foodDB);
-// const item = 
-// item.innerHTML = foodDB.
+Rate();
