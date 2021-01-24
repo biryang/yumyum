@@ -46,6 +46,9 @@ body {
     top: 0;
     left: 50%;
     z-index: -1;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
 }
 
 /* 페이지 상단 */
@@ -83,11 +86,8 @@ header {
 /* 본문 */
 
 .content {
-    text-align: center;
-    width: 100%;
-    margin-top: 150px;
-    position: absolute;
-    left: 15%;
+    margin-top: 20%;
+  
 }
 
 .content > #todayMenu {
