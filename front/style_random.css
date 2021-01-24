@@ -1,8 +1,16 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
 html {
     color: honeydew;
     overflow-x: hidden;
     width: 100%;
     height: 100%;
+    font-family: 'Noto Sans KR';
 }
 body {
     margin: 30px 100px;
@@ -10,7 +18,6 @@ body {
 
 .foodImage {
     background-color: coral;
-    /* background-image: url('pizza.jpg'); */
     width: 50%;
     height: 100%;
     position: absolute;
@@ -85,7 +92,6 @@ header {
 .content > #todayMenu {
     height: 150px;
     margin: 0 0 10px;
-    font-family: NanumSquareEB;
     font-size: 80px;
     line-height: 2;
     text-align: left;
@@ -96,7 +102,6 @@ header {
     margin: 0 0 60px 0;
     height: 39px;
     font-size: 80px;
-    font-family: NanumSquareB;
     text-align: left;
     line-height: 1;
     color: #ffffff;
@@ -110,19 +115,16 @@ header {
 .buttons > a > input {
     width: 200px;
     height: 70px;
-    font-family: NanumSquareB;
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
     margin:0 10px;
     padding: 0 20px;
     border-radius: 50px;
-    /* box-shadow: 100px 100px 100px 20px rgba(0, 0, 0, 0.705); */
     border: 0;
     outline: 0;
     cursor: pointer;
     background-color: #ffac4a;
-    /* #f07800; */
     transition: 0.5s;
 }
 

@@ -1,8 +1,17 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
 html{
-    background-image: url("/Practice/Javascript/2.\ Yumyum/background.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color:honeydew;
+    font-family: 'Noto Sans KR';
+
 }
 
 body{
@@ -57,21 +66,22 @@ header{
 /* 본문 */
 
 .content > #intro1{
-    width: 777px;
+    width: 800px;
     height: 195px;
     margin: 60px 234px 30px 104px;
-    font-family: NanumSquareEB;
-    font-size: 100px;
+    /* font-family: NanumSquareEB; */
+    font-size: 90px;
     line-height: 1;
     text-align: left;
     color: #ffffff;
 }
 
 .content > #intro2{
-  width: 1010px;
-  height: 39px;
+  width: 1200px;
+  height: 50px;
   margin: 0px 0 50px 104px;
-  font-family: NanumSquareB;
+  /* font-family: NanumSquareB; */
+  font-weight: 300;
   font-size: 40px;
   line-height: 1;
   text-align: left;
@@ -90,22 +100,17 @@ header{
 .buttons>a>input{
   width: 200px;
   height: 70px;
-  font-family: NanumSquareB;
+  /* font-family: NanumSquareB; */
   font-weight: bold;
   font-size: 20px;
   color: #ffffff;
 
   padding: 0px 20px;
   border-radius: 50px;
-  /* box-shadow: 100px 100px 100px 20px rgba(0, 0, 0, 0.705); */
   border: 0;
   outline:0;
   cursor: pointer;
   background-color: #f07800;
-  transition: 0.5s;
 }
 
-.buttons>input:hover{
-    background:#c05d00;
-}
 

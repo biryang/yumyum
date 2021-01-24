@@ -8,7 +8,7 @@ const stars = document.querySelector(".rating");
 //2021.01.23
 // api fetching
 
-let url = "https://13.125.227.52:85/random";
+let url = "http://13.125.227.52:85/random";
 let foodDB = fetch(url)
     .then((response) => {
         let a = response.json()
