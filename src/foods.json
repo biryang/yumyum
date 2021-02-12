@@ -1,0 +1,508 @@
+{
+    "food":[
+    {
+      "이름": "김치찌개",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥, 채소, 고기",
+      "맛": "매운맛,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/김치찌개.jpg"
+    },
+    {
+      "이름": "부대찌개",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥, 채소, 고기",
+      "맛": "매운맛,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/부대찌개.jpg"
+    },
+    {
+      "이름": "된장찌개",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥, 채소",
+      "맛": "고소함,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/된장찌개.jpg"
+    },
+    {
+      "이름": "돈까스",
+      "국가": "일식",
+      "조리법": "기타",
+      "주재료": "고기",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/돈까스.jpg"
+    },
+    {
+      "이름": "짜장면",
+      "국가": "중식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "단맛,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/짜장면.jpg"
+    },
+    {
+      "이름": "김밥",
+      "국가": "분식",
+      "조리법": "식사류",
+      "주재료": "밥",
+      "맛": "단맛,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/김밥.jpg"
+    },
+    {
+      "이름": "떡볶이",
+      "국가": "분식",
+      "조리법": "기타",
+      "주재료": "밀가루",
+      "맛": "매운맛,단맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/떡볶이.jpg"
+    },
+    {
+      "이름": "짬뽕",
+      "국가": "중식",
+      "조리법": "면류",
+      "주재료": "밀가루,해산물",
+      "맛": "기타,매운맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/짬뽕.jpg"
+    },
+    {
+      "이름": "콩나물국밥",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/콩나물국밥.jpg"
+    },
+    {
+      "이름": "초밥",
+      "국가": "일식",
+      "조리법": "식사류",
+      "주재료": "밥",
+      "맛": "단맛,기타,새콤달콤",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/초밥.jpg"
+    },
+    {
+      "이름": "햄버거",
+      "국가": "양식",
+      "조리법": "기타",
+      "주재료": "기타",
+      "맛": "단맛,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/햄버거.jpg"
+    },
+    {
+      "이름": "우동",
+      "국가": "일식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "기타,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/우동.jpg"
+    },
+    {
+      "이름": "피자",
+      "국가": "양식",
+      "조리법": "기타",
+      "주재료": "기타",
+      "맛": "짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/피자.jpg"
+    },
+    {
+      "이름": "치킨",
+      "국가": "양식",
+      "조리법": "기타",
+      "주재료": "기타",
+      "맛": "짠맛,매운맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/치킨.jpg"
+    },
+    {
+      "이름": "타코",
+      "국가": "세계음식",
+      "조리법": "기타",
+      "주재료": "기타",
+      "맛": "짠맛,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/타코.jpg"
+    },
+    {
+      "이름": "물냉면",
+      "국가": "한식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "기타,새콤달콤",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/물냉면.jpg"
+    },
+    {
+      "이름": "샤브샤브",
+      "국가": "일식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/샤브샤브.jpg"
+    },
+    {
+      "이름": "감자탕",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "짠맛,기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/감자탕.jpg"
+    },
+    {
+      "이름": "샌드위치",
+      "국가": "양식",
+      "조리법": "기타",
+      "주재료": "밀가루, 채소",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/샌드위치.jpg"
+    },
+    {
+      "이름": "생선구이",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "해산물",
+      "맛": "짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/생선구이.jpg"
+    },
+    {
+      "이름": "칼국수",
+      "국가": "한식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/칼국수.jpg"
+    },
+    {
+      "이름": "추어탕",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥,해산물",
+      "맛": "짠맛,기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/추어탕.jpg"
+    },
+    {
+      "이름": "오므라이스",
+      "국가": "일식",
+      "조리법": "식사류",
+      "주재료": "밥",
+      "맛": "단맛,새콤달콤",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/오므라이스.jpg"
+    },
+    {
+      "이름": "보리밥",
+      "국가": "한식",
+      "조리법": "식사류",
+      "주재료": "밥,채소",
+      "맛": "기타,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/보리밥.jpg"
+    },
+    {
+      "이름": "부침개",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "기타",
+      "맛": "기타,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/부침개.jpg"
+    },
+    {
+      "이름": "돼지국밥",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥",
+      "맛": "짠맛,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/돼지국밥.jpg"
+    },
+    {
+      "이름": "삼겹살",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/삼겹살.jpg"
+    },
+    {
+      "이름": "불고기",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "단맛,기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/불고기.jpg"
+    },
+    {
+      "이름": "닭볶음탕",
+      "국가": "한식",
+      "조리법": "볶음",
+      "주재료": "고기",
+      "맛": "매운맛,기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/닭볶음탕.jpg"
+    },
+    {
+      "이름": "스테이크",
+      "국가": "양식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/스테이크.jpg"
+    },
+    {
+      "이름": "월남쌈",
+      "국가": "세계음식",
+      "조리법": "기타",
+      "주재료": "밀가루,채소,밥,고기",
+      "맛": "기타,새콤달콤",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/월남쌈.jpg"
+    },
+    {
+      "이름": "수육",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/수육.jpg"
+    },
+    {
+      "이름": "카레",
+      "국가": "세계음식",
+      "조리법": "식사류",
+      "주재료": "밥",
+      "맛": "짠맛,단맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/카레.jpg"
+    },
+    {
+      "이름": "비빔밥",
+      "국가": "한식",
+      "조리법": "식사류",
+      "주재료": "밥",
+      "맛": "매운맛,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/비빔밥.jpg"
+    },
+    {
+      "이름": "연어덮밥",
+      "국가": "일식",
+      "조리법": "식사류",
+      "주재료": "해산물",
+      "맛": "단맛,기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/연어덮밥.jpg"
+    },
+    {
+      "이름": "순대국",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/순대국.jpg"
+    },
+    {
+      "이름": "육개장",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥,고기",
+      "맛": "매운맛,기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/육개장.jpg"
+    },
+    {
+      "이름": "떡국",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밀가루",
+      "맛": "고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/떡국.jpg"
+    },
+    {
+      "이름": "삼계탕",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥, 고기",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/삼계탕.jpg"
+    },
+    {
+      "이름": "탕수육",
+      "국가": "중식",
+      "조리법": "기타",
+      "주재료": "고기",
+      "맛": "기타,단맛,새콤달콤",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/탕수육.jpg"
+    },
+    {
+      "이름": "소바",
+      "국가": "일식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "새콤달콤,단맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/소바.jpg"
+    },
+    {
+      "이름": "소고기",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/소고기.jpg"
+    },
+    {
+      "이름": "오리고기",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/오리고기.jpg"
+    },
+    {
+      "이름": "곱창",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/곱창.jpg"
+    },
+    {
+      "이름": "백숙",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/백숙.jpg"
+    },
+    {
+      "이름": "튀김",
+      "국가": "분식",
+      "조리법": "기타",
+      "주재료": "기타",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/튀김.jpg"
+    },
+    {
+      "이름": "보쌈",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/보쌈.jpg"
+    },
+    {
+      "이름": "족발",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기",
+      "맛": "기타,고소함,새콤달콤",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/족발.jpg"
+    },
+    {
+      "이름": "나베",
+      "국가": "일식",
+      "조리법": "찌개/국/찜",
+      "주재료": "고기, 채소",
+      "맛": "고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/나베.jpg"
+    },
+    {
+      "이름": "회",
+      "국가": "일식",
+      "조리법": "기타",
+      "주재료": "해산물",
+      "맛": "기타,새콤달콤,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/회.jpg"
+    },
+    {
+      "이름": "라면",
+      "국가": "한식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "짠맛,매운맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/라면.jpg"
+    },
+    {
+      "이름": "닭갈비",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/닭갈비.jpg"
+    },
+    {
+      "이름": "만두",
+      "국가": "중식",
+      "조리법": "구이",
+      "주재료": "기타",
+      "맛": "기타",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/만두.jpg"
+    },
+    {
+      "이름": "스파게티",
+      "국가": "양식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "새콤달콤,단맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/스파게티.jpg"
+    },
+    {
+      "이름": "볶음밥",
+      "국가": "중식",
+      "조리법": "볶음",
+      "주재료": "밥",
+      "맛": "고소함,단맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/볶음밥.jpg"
+    },
+    {
+      "이름": "뒷고기",
+      "국가": "한식",
+      "조리법": "구이",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/뒷고기.jpg"
+    },
+    {
+      "이름": "편육",
+      "국가": "한식",
+      "조리법": "기타",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/편육.jpg"
+    },
+    {
+      "이름": "육회",
+      "국가": "한식",
+      "조리법": "기타",
+      "주재료": "고기",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/육회.jpg"
+    },
+    {
+      "이름": "도가니탕",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥",
+      "맛": "기타,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/도가니탕.jpg"
+    },
+    {
+      "이름": "설렁탕",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥",
+      "맛": "기타,짠맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/설렁탕.jpg"
+    },
+    {
+      "이름": "매운탕",
+      "국가": "한식",
+      "조리법": "찌개/국/찜",
+      "주재료": "밥, 해산물",
+      "맛": "기타,매운맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/매운탕.jpg"
+    },
+    {
+      "이름": "쫄면",
+      "국가": "분식",
+      "조리법": "면류",
+      "주재료": "밀가루",
+      "맛": "새콤달콤,단맛",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/쫄면.jpg"
+    },
+    {
+      "이름": "퀘사디아",
+      "국가": "세계음식",
+      "조리법": "기타",
+      "주재료": "기타",
+      "맛": "짠맛,고소함",
+      "이미지링크": "https://stufeed-image-storage.s3.ap-northeast-2.amazonaws.com/stufeed-yumyum/퀘사디아.jpg"
+    }
+  ]
+}
